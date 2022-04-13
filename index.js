@@ -10,7 +10,7 @@ let f = fs.readFileSync('./storage/db.json', 'utf8');
 
 BotCommands.push(
     {
-      name: 'помощь',
+      name: 'help',
       usage() { return `${process.env.PREFIX}${this.name}`; },
       desc: 'Показывает какие команды имеются у бота',
       func(message) {
