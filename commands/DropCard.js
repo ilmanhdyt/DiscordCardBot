@@ -97,7 +97,7 @@ const DropCard = (message, args, client) => {
 };
 
 module.exports = {
-	name: 'daikarty',
+	name: 'drop',
 	usage() { return `${CONSTANTS.PREFIX}${this.name}`; },
 	desc: 'Раз в 24 часа рандомная карта помещается вам в инвентарь при использовании этой команды',
 	func: DropCard,
